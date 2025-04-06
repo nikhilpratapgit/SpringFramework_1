@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="alien" class="org.example.Alien" scope="prototype">
+    </bean>
+    <bean id="laptop" class="org.example.Laptop">
+    </bean>
+</beans>
+
+<!-- scope == singleton then we get bean it give u same object and when scope is prototype then it create new object
+ every time when we say get bean. in singleton obj is created when we make container and in prototype obj is created when we say get bean or
+  a new obj os created not thee previous one -->
