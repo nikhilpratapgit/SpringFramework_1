@@ -8,6 +8,8 @@
     </bean>
 </beans>
 
+<!--  by default scope is singleton -->
+
 <!-- scope == singleton then we get bean it give u same object and when scope is prototype then it create new object
  every time when we say get bean. in singleton obj is created when we make container and in prototype obj is created when we say get bean or
   a new obj os created not thee previous one -->
